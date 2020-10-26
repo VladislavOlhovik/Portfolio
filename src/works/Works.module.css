@@ -1,0 +1,23 @@
+.worksBlock{
+    height: 100vh;
+    background-color: rgb(173, 128, 190);
+}
+.worksContainer{
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.works{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    .works{
+        justify-content: center;
+        align-items: flex-start;
+        height: 85%;
+    }
+}

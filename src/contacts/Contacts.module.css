@@ -1,0 +1,31 @@
+.contacts{
+    height: 100vh;
+    background-color: rgb(202, 170, 194);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 300px;
+}
+.button{
+    width: 15%;
+    height: 5%;
+    font-size: initial;
+}
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 34%;;
+    }
+    .form{
+        width: 280px;
+    }
+}
