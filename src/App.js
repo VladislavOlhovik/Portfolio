@@ -5,7 +5,7 @@ import Header from './header/Header';
 import Main from './main/Main';
 import RemoteWork from './remoteWork/RemoteWork';
 import Skills from './skills/Skills';
-import Works from './works/Works';
+import Projects from './projects/Projects';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Main/>
       <Skills/>
-      <Works/>
+      <Projects/>
       <RemoteWork/>
       <Contacts/>
       <Footer/>

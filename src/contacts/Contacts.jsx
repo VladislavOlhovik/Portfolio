@@ -4,15 +4,15 @@ import style from './Contacts.module.css'
 
 function Contacts() {
   return (
-    <div className={style.contacts}>
-      <div className={`${styleContainer.container} ${style.container}`}>
-       <h2>Contact</h2>
-       <div className={style.form}>
-         <input type="text"/>
-         <input type="text"/>
-         <textarea name="" id="" cols="30" rows="10"></textarea>
-       </div>
-       <button className={style.button}>Отправить</button>
+    <div className={style.contactsBlock}>
+      <div className={`${style.contactsContainer} ${styleContainer.container}`}>
+        <h2 className={style.title}>Contact</h2>
+        <form className={style.contactForm}>
+          <input type="text" />
+          <input type="text" />
+          <textarea></textarea>
+          <button className={style.submitBtn}>Отправить</button>
+        </form>
       </div>
     </div>
   );
