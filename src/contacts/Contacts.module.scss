@@ -1,0 +1,55 @@
+@import '../common/components/button/Button.module.scss';
+@import '../common/styles/sass/variables.scss';
+
+.contactsBlock{
+    background-color: $bgColor;
+    padding: 60px 0;
+    .contactsContainer{
+        max-width: 960px;
+        flex-direction: column;
+        justify-content: flex-start;
+        .contactForm{
+            width: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .submitBtn{
+                @extend .btn;
+            }
+            & input, textarea {
+                border: 1px solid #4a4a4a;
+                box-sizing: border-box;
+                font: 400 14px/1.8 'Poppins';
+                outline: none;
+                color: #92979c;
+                margin-bottom: 1rem;
+                background: #252527 !important;
+                font-size: 12px;
+                padding: 5px 15px;
+                &:-webkit-autofill{
+                    border: 1px sollid #4a4a4a;
+                    -webkit-text-fill-color: #92979c;
+                    box-shadow: 0 0 0 100px #252527 inset;
+                    transition: background-color 5000s ease-in-out 0s;
+                    &:focus{
+                        border: 2px solid $bgSecondColor;
+                    }
+                }
+            }
+            & textarea{
+                height: 150px;
+            }
+        }
+    }
+}
+.contactForm input, .contactForm textarea{
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .submitBtn {
+        width: 34%;;
+    }
+    .contactForm{
+        width: 280px;
+    }
+}

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Contacts from './contacts/Contacts';
 import Footer from './footer/Footer';
 import Header from './header/Header';

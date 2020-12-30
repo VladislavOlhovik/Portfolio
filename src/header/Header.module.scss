@@ -4,8 +4,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-.container{
-    justify-content: flex-end;
-    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 6;
+    .container{
+        justify-content: flex-end;
+        align-items: center;
+    }
 }

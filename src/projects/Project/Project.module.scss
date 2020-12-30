@@ -1,12 +1,14 @@
 @import '../../common/styles/sass/variables.scss';
 @import '../../common/styles/sass/mixins.scss';
-.project{
+
+.project {
     max-width: 450px;
     background: $bgSecondColor;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    .icon{
+
+    .icon {
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -15,7 +17,8 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        &:hover::before{
+
+        &:hover::before {
             position: absolute;
             content: '';
             background-color: black;
@@ -25,28 +28,35 @@
             bottom: 0;
             opacity: 0.5;
         }
-        &:hover .viewBtn{
+
+        &:hover .viewBtn {
             display: block;
         }
-        .viewBtn{
+
+        .viewBtn {
             position: relative;
             z-index: 1;
-            border-radius: 4px;
             display: none;
-            padding: 10px 20px;
-            color: $textColor;
-            background-color: $primaryColor;
+            @media only screen and (max-width: 1024px) {
+                display: block;
+                border-radius: 4px;
+                padding: 10px 20px;
+                background-color: $primaryColor;
+            }
         }
     }
-    .info{
+
+    .info {
         padding: 25px 20px;
-        .title{
-            @include text (16px, 1.2)
+
+        .title {
+            @include text (16px, 1.2);
             letter-spacing: 1px;
             margin: 0 0 5px;
         }
-        .description{
-            @include text (12px, 1.8)
+
+        .description {
+            @include text (12px, 1.8);
             font-weight: 400;
             font-family: 'Poppins', sans-serif;
         }
