@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1cf8d8fd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.cd97c97c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.cd97c97c.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.c3ee5c8b.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c3ee5c8b.js.map",
-    "static/js/2.15ea470f.chunk.js": "/Portfolio/static/js/2.15ea470f.chunk.js",
-    "static/js/2.15ea470f.chunk.js.map": "/Portfolio/static/js/2.15ea470f.chunk.js.map",
-    "static/js/3.5c8a012f.chunk.js": "/Portfolio/static/js/3.5c8a012f.chunk.js",
-    "static/js/3.5c8a012f.chunk.js.map": "/Portfolio/static/js/3.5c8a012f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.345e44f9.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2ea941f7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2ea941f7.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e041f7de.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e041f7de.js.map",
+    "static/js/2.b7c048cd.chunk.js": "/Portfolio/static/js/2.b7c048cd.chunk.js",
+    "static/js/2.b7c048cd.chunk.js.map": "/Portfolio/static/js/2.b7c048cd.chunk.js.map",
+    "static/js/3.2c9ff245.chunk.js": "/Portfolio/static/js/3.2c9ff245.chunk.js",
+    "static/js/3.2c9ff245.chunk.js.map": "/Portfolio/static/js/3.2c9ff245.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.1cf8d8fd.chunk.css.map": "/Portfolio/static/css/main.1cf8d8fd.chunk.css.map",
-    "static/js/2.15ea470f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.15ea470f.chunk.js.LICENSE.txt"
+    "static/css/main.345e44f9.chunk.css.map": "/Portfolio/static/css/main.345e44f9.chunk.css.map",
+    "static/js/2.b7c048cd.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b7c048cd.chunk.js.LICENSE.txt",
+    "static/media/sdf.ae43b56b.jpg": "/Portfolio/static/media/sdf.ae43b56b.jpg",
+    "static/media/why-reminders.6152a9fd.jpg": "/Portfolio/static/media/why-reminders.6152a9fd.jpg",
+    "static/media/Америка.9cba802e.jpg": "/Portfolio/static/media/Америка.9cba802e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3ee5c8b.js",
-    "static/js/2.15ea470f.chunk.js",
-    "static/css/main.1cf8d8fd.chunk.css",
-    "static/js/main.cd97c97c.chunk.js"
+    "static/js/runtime-main.e041f7de.js",
+    "static/js/2.b7c048cd.chunk.js",
+    "static/css/main.345e44f9.chunk.css",
+    "static/js/main.2ea941f7.chunk.js"
   ]
 }
