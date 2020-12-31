@@ -5,6 +5,7 @@ import Project from './Project/Project';
 import Title from '../common/components/title/Title';
 import ImgTodolist from '../assets/images/why-reminders.jpg'
 import ImgSocialNetwork from '../assets/images/sdf.jpg'
+import Fade from 'react-reveal/Fade';
 
 
 function Projects() {
@@ -18,13 +19,15 @@ function Projects() {
   ]
   
   return (
-    <div className={style.projectsBlock}>
+    <div id={'projects'} className={style.projectsBlock}>
       <div className={`${styleContainer.container} ${style.worksContainer}`}>
           <Title title={'Projects'}/>
           <div className={style.works}>
             {info.map((el,i)=>{
-              return(
-                <Project key={i} url={el.url} img={el.img} title={el.title} description={el.description}/>
+              return (
+                <Fade bottom>
+                  <Project key={i} url={el.url} img={el.img} title={el.title} description={el.description} />
+                </Fade>
               )
             })}
           </div>

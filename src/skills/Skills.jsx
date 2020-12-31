@@ -3,8 +3,7 @@ import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from './skill/Skill';
 import Title from '../common/components/title/Title';
-
-
+import Fade from 'react-reveal/Fade';
 
 function Skills() {
   const info =[
@@ -26,13 +25,15 @@ function Skills() {
 
 
   return (
-    <div className={style.skillsBlock}>
+    <div id={'skills'} className={style.skillsBlock}>
       <div className={`${styleContainer.container} ${style.skillsContainer}`}>
           <Title title={'Skills'}/>
           <div className={style.skills}>
             {info.map((el,i)=>{
-              return(
-                <Skill key={i} img={el.img} title={el.title} description={el.description}/>
+              return (
+                <Fade bottom>
+                  <Skill key={i} img={el.img} title={el.title} description={el.description} />
+                </Fade>
               )
             })}
           </div>
