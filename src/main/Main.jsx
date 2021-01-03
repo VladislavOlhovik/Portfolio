@@ -4,7 +4,7 @@ import styleContainer from '../common/styles/Container.module.css'
 import Photo from '../assets/images/Америка.jpg'
 import Particles from 'react-particles-js';
 import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-tilt'
+import Tilt from 'react-tilt';
 
 const particlesParam = {
   'particles':{
@@ -22,7 +22,7 @@ function Main() {
   return (
     <div id={'main'} className={style.mainBlock}>
       <Particles className={style.particles} params={particlesParam} />
-      <div className={styleContainer.container}>
+      <div className={`${styleContainer.container} ${style.mainContainer}`}>
         <div className={style.text}>
           <span>Hi There</span>
           <h1>I am <span>Vladislav Olhovik</span></h1>

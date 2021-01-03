@@ -25,8 +25,8 @@ function Projects() {
           <div className={style.works}>
             {info.map((el,i)=>{
               return (
-                <Fade bottom>
-                  <Project key={i} url={el.url} img={el.img} title={el.title} description={el.description} />
+                <Fade bottom key={i}>
+                  <Project url={el.url} img={el.img} title={el.title} description={el.description} />
                 </Fade>
               )
             })}

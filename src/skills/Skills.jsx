@@ -31,8 +31,8 @@ function Skills() {
           <div className={style.skills}>
             {info.map((el,i)=>{
               return (
-                <Fade bottom>
-                  <Skill key={i} img={el.img} title={el.title} description={el.description} />
+                <Fade bottom key={i}>
+                  <Skill img={el.img} title={el.title} description={el.description} />
                 </Fade>
               )
             })}

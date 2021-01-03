@@ -13,19 +13,19 @@ function Footer() {
         <Fade bottom>
           <div className={style.list}>
             <a title='telegram' target="blank" href="https://t.me/vladolhovik">
-              <i class="fab fa-telegram"></i>
+              <i className="fab fa-telegram"></i>
             </a>
             <a title='github' target="blank" href="https://github.com/VladislavOlhovik">
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
             <a title='linkedin' target="blank" href="https://www.linkedin.com/in/vlolhovik/">
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
             <a title='instagram' target="blank" href="https://www.instagram.com/wladolkhovik/?igshid=1hei8w56ildim">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
             <a title='facebook' target="blank" href="https://www.facebook.com/wladrulit">
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
           </div>
         </Fade>

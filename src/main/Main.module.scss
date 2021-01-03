@@ -4,6 +4,14 @@
     height: 100vh;
     background-color: $bgColor;
     position: relative;
+    @media only screen and (max-width: 1150px){
+        padding-top: 80px;
+    }
+    .mainContainer{
+        @media only screen and (max-width: 1132px){
+            justify-content: center;
+        }
+    }
     .particles{
         position: absolute;
         left: 0;
@@ -17,6 +25,9 @@
         color: #fff;
         font-size: 25px;
         padding: 10px 0 10px;
+        @media only screen and (max-width: 1150px){
+            text-align: center;
+        }
 
         & h1 span {
             position: relative;
@@ -40,8 +51,12 @@
 
     }
     .photo img {
-        width: 360px;
+        max-width: 360px;
         height: 400px;
+        @media only screen and (max-width: 400px){
+            width: 300px;
+            height: 300px;
+        }
     }
     .photo span{
         position: absolute;
@@ -51,5 +66,9 @@
         left: 5px;
         bottom: -10px;
         z-index: -1;
+        @media only screen and (max-width: 400px){
+            width: 300px;
+            height: 320px;
+        }
     }
 }
