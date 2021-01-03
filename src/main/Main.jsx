@@ -29,7 +29,7 @@ function Main() {
           <ReactTypingEffect speed={30} typingDelay={1500} text={'Frontend Developer'} />
         </div>
         <div className={style.photo}>
-          <Tilt>
+          <Tilt options={{ scale: 1.05, max: 15 }}>
             <img src={Photo} alt="MyPhoto" />
           </Tilt>
           <span></span>

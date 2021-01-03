@@ -1,7 +1,7 @@
 @import '../common/styles/sass/variables.scss';
 
 .footer{
-    height: 150px;
+    height: 200px;
     background-color: $bgSecondColor;
     color: #fff;
     display: flex;
@@ -14,8 +14,9 @@
             width: 330px;
             display: flex;
             justify-content: space-between;
-            & a{
-                color: #fff;
+            & a i{
+                color: $primaryColor;
+                font-size: 35px;
             }
         }
     }
