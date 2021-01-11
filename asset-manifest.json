@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6c922b41.chunk.css",
-    "main.js": "/Portfolio/static/js/main.32993fd1.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.32993fd1.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.c065a370.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c065a370.js.map",
-    "static/js/2.78081789.chunk.js": "/Portfolio/static/js/2.78081789.chunk.js",
-    "static/js/2.78081789.chunk.js.map": "/Portfolio/static/js/2.78081789.chunk.js.map",
-    "static/js/3.c2100b15.chunk.js": "/Portfolio/static/js/3.c2100b15.chunk.js",
-    "static/js/3.c2100b15.chunk.js.map": "/Portfolio/static/js/3.c2100b15.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.51b25db0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e11f8356.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e11f8356.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.84d0690e.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.84d0690e.js.map",
+    "static/js/2.57d373c6.chunk.js": "/Portfolio/static/js/2.57d373c6.chunk.js",
+    "static/js/2.57d373c6.chunk.js.map": "/Portfolio/static/js/2.57d373c6.chunk.js.map",
+    "static/js/3.a2508482.chunk.js": "/Portfolio/static/js/3.a2508482.chunk.js",
+    "static/js/3.a2508482.chunk.js.map": "/Portfolio/static/js/3.a2508482.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.6c922b41.chunk.css.map": "/Portfolio/static/css/main.6c922b41.chunk.css.map",
-    "static/js/2.78081789.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.78081789.chunk.js.LICENSE.txt",
+    "static/css/main.51b25db0.chunk.css.map": "/Portfolio/static/css/main.51b25db0.chunk.css.map",
+    "static/js/2.57d373c6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.57d373c6.chunk.js.LICENSE.txt",
+    "static/media/photo.9cba802e.jpg": "/Portfolio/static/media/photo.9cba802e.jpg",
     "static/media/sdf.ae43b56b.jpg": "/Portfolio/static/media/sdf.ae43b56b.jpg",
-    "static/media/why-reminders.6152a9fd.jpg": "/Portfolio/static/media/why-reminders.6152a9fd.jpg",
-    "static/media/Америка.9cba802e.jpg": "/Portfolio/static/media/Америка.9cba802e.jpg"
+    "static/media/why-reminders.6152a9fd.jpg": "/Portfolio/static/media/why-reminders.6152a9fd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c065a370.js",
-    "static/js/2.78081789.chunk.js",
-    "static/css/main.6c922b41.chunk.css",
-    "static/js/main.32993fd1.chunk.js"
+    "static/js/runtime-main.84d0690e.js",
+    "static/js/2.57d373c6.chunk.js",
+    "static/css/main.51b25db0.chunk.css",
+    "static/js/main.e11f8356.chunk.js"
   ]
 }
