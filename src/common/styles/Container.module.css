@@ -1,6 +1,5 @@
 .container{
     font-family: 'Josefin Sans', sans-serif;
-    /* border: 1px solid; */
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -11,7 +10,6 @@
 }
 @media only screen and (max-width: 600px) {
     .container {
-        /* justify-content: center; */
         width: 100%;
     }
 }

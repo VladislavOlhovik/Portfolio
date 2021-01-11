@@ -1,18 +1,18 @@
 import React from 'react';
 import style from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
-import Photo from '../assets/images/Америка.jpg'
+import Photo from '../assets/images/photo.jpg'
 import Particles from 'react-particles-js';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-tilt';
 
 const particlesParam = {
-  'particles':{
-    'number':{
-      'value':160,
-      'density':{
-        'enable':true,
-        'value_area':800
+  'particles': {
+    'number': {
+      'value': 160,
+      'density': {
+        'enable': true,
+        'value_area': 800
       }
     }
   }

@@ -3,7 +3,7 @@ import Contacts from './contacts/Contacts';
 import Footer from './footer/Footer';
 import Header from './header/Header';
 import Main from './main/Main';
-import RemoteWork from './remoteWork/RemoteWork';
+import OpenToOffers from './OpenToOffers/OpenToOffers';
 import Skills from './skills/Skills';
 import Projects from './projects/Projects';
 
@@ -14,7 +14,7 @@ function App() {
       <Main/>
       <Skills/>
       <Projects/>
-      <RemoteWork/>
+      <OpenToOffers/>
       <Contacts/>
       <Footer/>
     </div>

@@ -27,6 +27,9 @@ function Footer() {
             <a title='facebook' target="blank" href="https://www.facebook.com/wladrulit">
               <i className="fab fa-facebook"></i>
             </a>
+            <a title='codewars' target="blank" href="https://www.codewars.com/users/VladislavOlhovik">
+              <i className="fas fa-laptop-code"></i>
+            </a>
           </div>
         </Fade>
         <span>© 2021 All Rights Reserved.</span>
