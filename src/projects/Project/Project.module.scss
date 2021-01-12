@@ -59,6 +59,9 @@
             @include text (12px, 1.8);
             font-weight: 400;
             font-family: 'Poppins', sans-serif;
+            & a{
+                color: $primaryColor;
+            }
         }
     }
 }

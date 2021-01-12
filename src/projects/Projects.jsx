@@ -17,7 +17,7 @@ function Projects() {
           {projectsInfo.map((el, i) => {
             return (
               <Fade bottom key={i}>
-                <Project url={el.url} img={el.img} title={el.title} description={el.description} />
+                <Project urlPr={el.urlPr} urlCode={el.urlCode} img={el.img} title={el.title} description={el.description} />
               </Fade>
             )
           })}

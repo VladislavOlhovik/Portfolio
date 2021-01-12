@@ -6,12 +6,12 @@ import Fade from 'react-reveal/Fade';
 import { useFormik } from 'formik';
 import { useDispatch, useSelector } from 'react-redux';
 import { sendContacts } from '../Redux/contacts.reducer';
-import Alert from '../Alert/alert';
+import Alert from '../common/components/Alert/alert';
 
 
 function Contacts() {
   const dispatch = useDispatch()
-  const {message, isDone} = useSelector(state=>state.contacts)
+  const { message, isDone } = useSelector(state => state.contacts)
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -41,25 +41,28 @@ function Contacts() {
   let errorMessage = formik.touched.message && formik.errors.message
   return (
     <div id={'contacts'} className={style.contactsBlock}>
-      {message&&<Alert message={message} sec={5} isDone={isDone}/>}
+      {message && <Alert message={message} sec={5} isDone={isDone} />}
       <div className={`${style.contactsContainer} ${styleContainer.container}`}>
-        <Title title={'Contact'}/>
+        <Title title={'Contact'} />
         <Fade bottom>
           <form className={style.contactForm} onSubmit={formik.handleSubmit}>
             <div>{errorName
               ? <div>{formik.errors.name}</div>
               : null}</div>
-            <input className={errorName ? style.error : ''} id="name" type="text" placeholder='Name'
+            <input className={errorName ? style.error : ''} id="name"
+              type="text" placeholder='Enter your name*'
               {...formik.getFieldProps('name')} />
             <div>{errorEmail
               ? <div>{formik.errors.email}</div>
               : null}</div>
-            <input className={errorEmail ? style.error : ''} id="email" type="text" placeholder='e-mail'
+            <input className={errorEmail ? style.error : ''} id="email"
+              type="text" placeholder='Enter your e-mail*'
               {...formik.getFieldProps('email')} />
             <div>{errorMessage
               ? <div>{formik.errors.message}</div>
               : null}</div>
-            <textarea className={errorMessage ? style.error : ''} id="message" type="text" placeholder='Message'
+            <textarea className={errorMessage ? style.error : ''} id="message"
+              type="text" placeholder='Enter your message*'
               {...formik.getFieldProps('message')} />
             <button type="submit" className={style.submitBtn}>Send message</button>
           </form>

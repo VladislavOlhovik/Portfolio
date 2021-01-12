@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import style from './alert.module.scss'
 import Zoom from 'react-reveal/Zoom';
 import { useDispatch } from 'react-redux';
-import { setMessage } from '../Redux/contacts.reducer';
+import { setMessage } from '../../../Redux/contacts.reducer';
 
 
 const Alert = ({ message, sec = 3, isDone }) => {
@@ -17,13 +17,13 @@ const Alert = ({ message, sec = 3, isDone }) => {
         return () => {
             clearTimeout(time);
         }
-    },[])
+    },[sec, dispatch])
     return (
         <div className={style.wrapper}>
             <Zoom >
                 <div className={style.block}>
                     <button onClick={close}>
-                        <i class="fas fa-times-circle"></i>
+                        <i className="fas fa-times-circle"></i>
                     </button>
                     <div className={style.icon}>
                         <i className={isDone?"far fa-check-circle":"far fa-sad-tear"}></i>
