@@ -61,7 +61,7 @@ let initialState = {
     {
       title: "Social Network",
       img: { backgroundImage: `url(${ImgSocialNetwork})` },
-      urlPr: "https://vladislavolhovik.github.io/SocialNetwork-TS/",
+      urlPr: "http://VladislavOlhovik.github.io/SocialNetwork-JS",
       urlCode: [
         "https://github.com/VladislavOlhovik/SocialNetwork-JS",
         "https://github.com/VladislavOlhovik/SocialNetwork-TS",
