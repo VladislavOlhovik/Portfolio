@@ -1,5 +1,5 @@
 import React from 'react';
-import styleContainer from '../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import style from './Footer.module.scss'
 import Title from '../common/components/title/Title'
 import Fade from 'react-reveal/Fade';

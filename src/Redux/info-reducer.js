@@ -72,7 +72,7 @@ let initialState = {
       There are implemented: authorization, profile editing, 
       communication with other users in the chat, 
       I used: react, redux, redux-form, WebSocket, axios, react-router-dom, 
-      redux-thunk. You can find the code by the following link: `,
+      redux-thunk, redux-saga. You can find the code by the following link: `,
     },
     {
       title: "Smart counter",

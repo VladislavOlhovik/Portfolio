@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Projects.module.scss'
-import styleContainer from '../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import Project from './Project/Project';
 import Title from '../common/components/title/Title';
 import Fade from 'react-reveal/Fade';
