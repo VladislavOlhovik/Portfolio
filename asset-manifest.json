@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.57826f98.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8868ccf9.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8868ccf9.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.a937120d.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a937120d.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.84d0690e.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.84d0690e.js.map",
     "static/js/2.57d373c6.chunk.js": "/Portfolio/static/js/2.57d373c6.chunk.js",
@@ -13,7 +13,6 @@
     "static/css/main.57826f98.chunk.css.map": "/Portfolio/static/css/main.57826f98.chunk.css.map",
     "static/js/2.57d373c6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.57d373c6.chunk.js.LICENSE.txt",
     "static/media/Portfolio.196ecefc.jpeg": "/Portfolio/static/media/Portfolio.196ecefc.jpeg",
-    "static/media/Uladzislau Alkhovik-CV.15466fcc.pdf": "/Portfolio/static/media/Uladzislau Alkhovik-CV.15466fcc.pdf",
     "static/media/photo.9cba802e.jpg": "/Portfolio/static/media/photo.9cba802e.jpg",
     "static/media/sdf.ae43b56b.jpg": "/Portfolio/static/media/sdf.ae43b56b.jpg",
     "static/media/smartCounter.f1592572.jpg": "/Portfolio/static/media/smartCounter.f1592572.jpg",
@@ -23,6 +22,6 @@
     "static/js/runtime-main.84d0690e.js",
     "static/js/2.57d373c6.chunk.js",
     "static/css/main.57826f98.chunk.css",
-    "static/js/main.8868ccf9.chunk.js"
+    "static/js/main.a937120d.chunk.js"
   ]
 }
