@@ -1,8 +1,10 @@
-import axios from "axios"
-
+import axios from 'axios';
 
 export const emailAPI = {
-    sendMessage(data){
-        return axios.post('https://smtp-servernodejs.herokuapp.com/sendMessage', data)
-    }
-}
+  sendMessage(data) {
+    return axios.post(
+      'https://smtp-servernodejs.herokuapp.com/sendMessage',
+      data,
+    );
+  },
+};

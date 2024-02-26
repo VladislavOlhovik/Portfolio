@@ -1,21 +1,21 @@
 @import '../common/styles/sass/variables.scss';
-.skillsBlock{
-    min-height: 100vh;
-    padding: 60px 0;
-    background-color: $bgSecondColor;
-    .skillsContainer{
-        justify-content: flex-start;
-        flex-direction: column;
-        .skills{
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            @media only screen and (max-width: 870px) {
-                    justify-content: center;
-                    align-items: flex-start;
-                    height: 80%;
-            }
-        }
+.skillsBlock {
+  min-height: 100vh;
+  padding: 60px 0;
+  background-color: $bgSecondColor;
+  .skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media only screen and (max-width: 870px) {
+        justify-content: center;
+        align-items: flex-start;
+        height: 80%;
+      }
     }
+  }
 }

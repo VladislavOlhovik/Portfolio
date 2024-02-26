@@ -1,0 +1,39 @@
+@import '../../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/mixins.scss';
+
+.carouselContainer {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 1165px;
+  .slideButton {
+    position: absolute;
+    top: 140px;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: $primaryColor;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+    font-size: 3rem;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .carouselWrapper {
+    display: flex;
+    .carouselContent {
+      display: flex;
+      transition: transform ease-out 0.6s;
+      .slide {
+        display: inline;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+    }
+  }
+}

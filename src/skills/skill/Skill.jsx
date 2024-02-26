@@ -1,6 +1,5 @@
 import React from 'react';
-import style from './Skill.module.scss'
-
+import style from './Skill.module.scss';
 
 function Skill(props) {
   return (
