@@ -1,0 +1,73 @@
+@import '@styles';
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  position: relative;
+  @media only screen and (max-width: 1150px) {
+    padding-top: 80px;
+  }
+  .mainContainer {
+    @media only screen and (max-width: 1132px) {
+      justify-content: center;
+    }
+  }
+  .particles {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.4;
+  }
+  .text {
+    width: 600px;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 0 10px;
+    @media only screen and (max-width: 1150px) {
+      text-align: center;
+    }
+
+    & h1 span {
+      position: relative;
+      z-index: 0;
+    }
+    & h1 span:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 20px;
+      width: 100%;
+      z-index: -1;
+      background: #4e93e6;
+    }
+  }
+  .photo {
+    position: relative;
+    z-index: 2;
+  }
+  .photo img {
+    max-width: 4000px;
+    height: 400px;
+    @media only screen and (max-width: 450px) {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .photo span {
+    position: absolute;
+    width: 400px;
+    height: 420px;
+    border: #4e93e6 5px solid;
+    left: 5px;
+    bottom: -10px;
+    z-index: -1;
+    @media only screen and (max-width: 450px) {
+      width: 300px;
+      height: 320px;
+    }
+  }
+}

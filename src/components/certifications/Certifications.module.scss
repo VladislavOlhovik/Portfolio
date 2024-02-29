@@ -1,0 +1,12 @@
+@import '@styles';
+
+.block {
+  min-height: 50vh;
+  padding: 60px 0;
+  background-color: $bgColor;
+  .container {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

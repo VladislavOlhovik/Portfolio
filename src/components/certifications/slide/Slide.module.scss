@@ -1,0 +1,58 @@
+@import '@styles';
+
+.container {
+  width: 368px;
+  .imgContainer {
+    position: relative;
+    display: grid;
+    place-items: center;
+    .btn {
+      display: none;
+      position: absolute;
+      @media only screen and (max-width: 1024px) {
+        display: block;
+        border-radius: 4px;
+        padding: 10px 20px;
+        background-color: $primaryColor;
+      }
+    }
+    .img {
+      display: inline;
+      width: 23rem;
+      box-sizing: border-box;
+    }
+    &:hover .btn {
+      display: block;
+    }
+    &:hover::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.5;
+    }
+  }
+  .infoBlock {
+    h3 {
+      @include text(20px, 1.2);
+      margin: 8px 0;
+      flex: 1;
+    }
+    span {
+      flex: 0.5;
+      text-align: end;
+    }
+    p {
+      margin: 0;
+    }
+    @include text(16px, 1.2);
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

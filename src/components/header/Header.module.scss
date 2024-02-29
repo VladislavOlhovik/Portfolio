@@ -1,0 +1,20 @@
+@import '@styles';
+
+.header {
+  height: 80px;
+  background-color: $bgSecondColor;
+  opacity: 0.9;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  .container {
+    justify-content: flex-end;
+    align-items: center;
+    @media only screen and (max-width: 760px) {
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import '@styles';
+
+.nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  & a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+  .active {
+    color: $primaryColor;
+  }
+}

@@ -1,4 +1,4 @@
-const listOfCerts = [
+export const listOfCerts = [
   {
     title: 'Meta Front-End Developer',
     subtitle: 'Website',
@@ -14,8 +14,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/798ec8da9f13149293aa0ea47a533e10',
     image: 'ux_ui.webp',
     date: '02-02-2024',
-    desc:
-      `This is my certification from a renowned institution for completing
+    desc: `This is my certification from a renowned institution for completing
       their Principles of UX/UI Design course. This course provided me with 
       a comprehensive understanding of user experience and interface design 
       principles, teaching me how to apply these concepts to create intuitive 
@@ -27,8 +26,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/966659fc5ebd7103adbbcf07da57530a',
     image: 'advanced_react.webp',
     date: '01-31-2024',
-    desc:
-      `This is my certification from Meta, acknowledging my completion 
+    desc: `This is my certification from Meta, acknowledging my completion 
       of their Advanced React course. This course provided an in-depth 
       exploration of React, equipping me with advanced skills and techniques 
       essential for developing complex and dynamic web applications. It covered 
@@ -41,8 +39,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/3d0cbcdeb29db7444aa205453d4370ad',
     image: 'react_basics.webp',
     date: '01-26-2024',
-    desc:
-      `This is my certification I received from Meta for completing their React Basics course.
+    desc: `This is my certification I received from Meta for completing their React Basics course.
        This course taught me the basics of React and how to use it to create a web app.`,
   },
   {
@@ -51,8 +48,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/a8d5ebf2db1447fc6e549d03135e3b3e',
     image: 'html_css.webp',
     date: '01-25-2024',
-    desc:
-      `This is my certification I received from Meta for completing their HTML and 
+    desc: `This is my certification I received from Meta for completing their HTML and 
       CSS in depth course. This course took a deep dive into the web development 
       languages HTML and CSS. I learned how to be proficient in both languages 
       and how to use them to create a website.`,
@@ -63,8 +59,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/daaee25068cc66ef91a3f2dc1d329c7f',
     image: 'programing_js.webp',
     date: '01-21-2024',
-    desc:
-      `This is my certification I received from Meta for completing their 
+    desc: `This is my certification I received from Meta for completing their 
       Programming with JavaScript course. This course introduced me Javascript 
       and refreshed me memory on the fundamentals of programming.`,
   },
@@ -74,8 +69,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/2174b5337404f8f4ebc1c0280b0c281d',
     image: 'version_control.webp',
     date: '01-22-2024',
-    desc:
-      `This is my certification I received from Meta for completing their 
+    desc: `This is my certification I received from Meta for completing their 
       Introduction to Front-End Development course. This course introduced 
       me to Version Control systems and refreshed me memory of Git, Github, Bash.`,
   },
@@ -85,8 +79,7 @@ const listOfCerts = [
     link: 'https://coursera.org/share/51f14261dbec426eb331a39fa3198b9b',
     image: 'introducrion_to_front-end.webp',
     date: '01-18-2024',
-    desc:
-      `This is my certification I received from Meta for completing their 
+    desc: `This is my certification I received from Meta for completing their 
       Introduction to Front-End Development course. This course introduced 
       me to Front-End Development and taught me the basics of HTML, CSS, and JavaScript.`,
   },
@@ -139,5 +132,3 @@ const listOfCerts = [
     for creating engaging and user-centric mobile experiences on various platforms.`,
   },
 ];
-
-export default listOfCerts;
