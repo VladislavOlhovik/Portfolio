@@ -26,8 +26,8 @@ export const setMessage = (message, isDone) => ({
 export const sendContacts = data => async dispatch => {
   try {
     let response = await emailAPI.sendMessage(data);
-    if (response.data === 'ok') {
-      dispatch(setMessage('Thank you, Your Message has been sent:)', true));
+    if (response.statusText === 'OK') {
+      dispatch(setMessage(`Thank you, ${response.data}:)`, true));
     }
   } catch (error) {
     dispatch(setMessage('Sorry! Your Message has not been sent', false));

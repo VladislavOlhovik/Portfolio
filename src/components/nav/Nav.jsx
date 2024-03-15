@@ -11,6 +11,7 @@ export function Nav() {
       {links.map(link => {
         return (
           <Link
+            key={link}
             activeClass={style.active}
             spy={true}
             smooth={true}
