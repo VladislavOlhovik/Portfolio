@@ -15,7 +15,7 @@ export const Popup = () => {
     let time = setTimeout(() => {
       localStorage.setItem('dataCollectionAccepted', 'true');
       setShowPopup(false);
-    }, 130000);
+    }, 16000);
     return () => {
       clearTimeout(time);
     };
