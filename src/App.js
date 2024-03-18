@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 import {
   Header,
   Main,
@@ -7,11 +9,17 @@ import {
   OpenToOffers,
   Contacts,
   Footer,
+  DataCollectionPopup,
 } from '@components';
+import { emailAPI } from '@API';
 
 import './App.scss';
 
 function App() {
+  useEffect(() => {
+    emailAPI.sendNonPersonalInfo();
+  }, []);
+
   return (
     <div className='App'>
       <Header />
@@ -22,6 +30,7 @@ function App() {
       <OpenToOffers />
       <Contacts />
       <Footer />
+      <DataCollectionPopup />
     </div>
   );
 }
