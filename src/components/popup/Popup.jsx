@@ -4,7 +4,7 @@ import { Button } from '@components';
 
 import style from './Popup.module.scss';
 
-export const DataCollectionPopup = () => {
+export const Popup = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {

@@ -10,4 +10,4 @@ export { OpenToOffers } from './openToOffers/OpenToOffers.jsx';
 export { Projects } from './projects/Projects.jsx';
 export { Skills } from './skills/Skills.jsx';
 export { Footer } from './footer/Footer.jsx';
-export { DataCollectionPopup } from './popup/Popup.jsx';
+export { Popup } from './popup/Popup.jsx';

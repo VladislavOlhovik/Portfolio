@@ -9,7 +9,7 @@ import {
   OpenToOffers,
   Contacts,
   Footer,
-  DataCollectionPopup,
+  Popup,
 } from '@components';
 import { emailAPI } from '@API';
 
@@ -30,7 +30,7 @@ function App() {
       <OpenToOffers />
       <Contacts />
       <Footer />
-      <DataCollectionPopup />
+      <Popup />
     </div>
   );
 }

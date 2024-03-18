@@ -3,7 +3,7 @@ import axios from 'axios';
 import { getNonPersonalInfo } from '@assets';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:3003/',
+  baseURL: 'https://smtp-servernodejs.herokuapp.com/',
   headers: {
     'Content-Type': 'application/json',
   },
