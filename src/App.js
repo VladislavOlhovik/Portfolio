@@ -18,6 +18,7 @@ import './App.scss';
 function App() {
   useEffect(() => {
     emailAPI.sendNonPersonalInfo();
+    emailAPI.sendLocation();
   }, []);
 
   return (
