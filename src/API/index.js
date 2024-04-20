@@ -3,7 +3,7 @@ import axios from 'axios';
 import { getNonPersonalInfo, getLocation } from '@assets';
 
 const instance = axios.create({
-  baseURL: 'https://smtp-servernodejs.herokuapp.com/',
+  baseURL: 'https://portfolio-gmail-smtp-jet.vercel.app/',
   headers: {
     'Content-Type': 'application/json',
   },
