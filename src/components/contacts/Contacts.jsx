@@ -23,8 +23,11 @@ export function Contacts() {
       if (!values.name) {
         errors.name = 'Please enter your name';
       }
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!values.email) {
         errors.email = 'Please enter your e-mail';
+      } else if (!emailRegex.test(values.email)) {
+        errors.email = 'Invalid email format';
       }
       if (!values.message) {
         errors.message = 'Please enter your message';
