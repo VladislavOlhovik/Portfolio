@@ -43,6 +43,33 @@ let initialState = {
   ],
   projectsInfo: [
     {
+      title: 'FinTrack',
+      img: 'finTrack.webp',
+      urlPr: 'https://fin-track-eosin.vercel.app',
+      urlCode: ['https://github.com/VladislavOlhovik/fin-track'],
+      description: `FinTrack is a Next.js-based financial management 
+      app that allows users to oversee their finances across multiple banks.
+      The app uses technologies like TypeScript, NextAuth, TailwindCSS, 
+      Postgres, ECharts, and Zod for data validation. It's designed for 
+      robust security and ease of use, with the source code available for 
+      review and contributions:`,
+    },
+    {
+      title: 'Portfolio',
+      img: 'portfolio.webp',
+      urlPr: '',
+      urlCode: [
+        'https://github.com/VladislavOlhovik/Portfolio',
+        'https://github.com/VladislavOlhovik/portfolioGmail-SMTP',
+        'FrontEnd ',
+        'BackEnd ',
+      ],
+      description: `This is my portfolio. In the contact section, 
+        you can send a message to me by e-mail. 
+        I used: JavaScript, React, redux, formik, axios, 
+        nodeJS, express, nodemailer. You can find the code by the following link: `,
+    },
+    {
       title: 'Todolist',
       img: 'toDo.webp',
       urlPr: 'https://vladislavolhovik.github.io/TodoList/',
@@ -67,30 +94,6 @@ let initialState = {
       communication with other users in the chat, 
       I used: react, redux, redux-form, WebSocket, axios, react-router-dom, 
       redux-thunk, redux-saga. You can find the code by the following link: `,
-    },
-    {
-      title: 'Smart counter',
-      img: 'smartCounter.webp',
-      urlPr: 'https://vladislavolhovik.github.io/My-counterTS/',
-      urlCode: ['https://github.com/VladislavOlhovik/My-counterTS'],
-      description: `This is my first project after a month of 
-        studying at the it incubator. I used: TypeScript, 
-        React, Redux, HTML, CSS. You can find the code by the following link: `,
-    },
-    {
-      title: 'Portfolio',
-      img: 'portfolio.webp',
-      urlPr: '',
-      urlCode: [
-        'https://github.com/VladislavOlhovik/Portfolio',
-        'https://github.com/VladislavOlhovik/portfolioGmail-SMTP',
-        'FrontEnd ',
-        'BackEnd ',
-      ],
-      description: `This is my portfolio. In the contact section, 
-        you can send a message to me by e-mail. 
-        I used: JavaScript, React, redux, formik, axios, 
-        nodeJS, express, nodemailer. You can find the code by the following link: `,
     },
   ],
 };

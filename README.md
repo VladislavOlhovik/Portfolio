@@ -30,3 +30,12 @@ git clone https://github.com/VladislavOlhovik/Portfolio.git
 cd Portfolio
 npm install
 ```
+
+## Node.js Version
+
+This project requires Node.js version 16. You can use nvm (Node Version Manager) to install and manage this version.
+
+```bash
+nvm install 16
+nvm use 16
+```
