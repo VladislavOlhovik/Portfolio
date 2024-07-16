@@ -36,13 +36,14 @@ export function Main() {
           />
         </div>
         <div className={style.photo}>
+        <div>
           <Tilt options={{ scale: 1.05, max: 15 }}>
             <img
               src={`${process.env.PUBLIC_URL}/images/photo.webp`}
               alt='MyPhoto'
             />
           </Tilt>
-          <span></span>
+          </div>
         </div>
       </div>
     </div>
